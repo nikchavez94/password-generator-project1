@@ -9,3 +9,8 @@ The bootcamp classes acted as contributions to this project. Without the courses
 ## License
 Please refer to the LICENSE in the repo.
 This project is licensed under the [MIT License](LICENSE).
+
+## Screenshots 
+<img width="824" alt="Screenshot 2023-09-11 at 10 31 19 PM" src="https://github.com/nikchavez94/password-generator-project1/assets/128064997/858787ed-30a1-4359-85f2-714afe5204af">
+<img width="754" alt="Screenshot 2023-09-11 at 10 31 31 PM" src="https://github.com/nikchavez94/password-generator-project1/assets/128064997/3c8042c0-1353-4a78-9b58-3759816f30d9">
+<img width="839" alt="Screenshot 2023-09-11 at 10 31 43 PM" src="https://github.com/nikchavez94/password-generator-project1/assets/128064997/9e383c70-a897-4efa-b22e-468102572748">
