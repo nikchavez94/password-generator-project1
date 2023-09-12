@@ -5,13 +5,15 @@ var lowercase = uppercase.toLowerCase()
 var characterchoices = ""
 var endingPassword = ""
 
+//they choose which criteria they want to use 
 function generatePassword (){
   var passwordLength = prompt("How long would you like the password?")
   var confirmNum = confirm("Do you want numbers in your password?")
   var confirmSym = confirm("Do you want symbols in your password?")
   var confirmUpper = confirm("Do you want uppercase letters in your password?")
   var confirmLow = confirm("Do you want lowercase letters in your password?")
-if (confirmNum === true) {
+//Allows the criteria if chosen 
+  if (confirmNum === true) {
   characterchoices += numbers 
 }
 if (confirmSym === true) {
@@ -23,11 +25,12 @@ if (confirmUpper === true) {
 if (confirmLow === true) {
   characterchoices += lowercase
 }
-
+//they can't say no to all criteria 
 if (!confirmNum && !confirmLow && !confirmSym && !confirmUpper) {
   alert("You must make a choice!")
 }
 
+//allows for random character choice when generated 
 for (var i =0;i<passwordLength; i++){
 var randomizedCharacter = Math.floor(Math.random()*characterchoices.length)
  endingPassword += characterchoices.charAt(randomizedCharacter)
